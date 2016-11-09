@@ -29,7 +29,7 @@
 	{
 		"communityfilesdetails"	
 		{
-			"bgcolor"		"ClientInnerItemsBG"	
+			"bgcolor"		"BackgroundStart"	
 		}
 		"infolabel"	
 		{

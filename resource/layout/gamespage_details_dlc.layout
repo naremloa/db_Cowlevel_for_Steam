@@ -55,7 +55,7 @@
 	{
 		"dlcdetails"	
 		{
-			"bgcolor"		"ClientInnerItemsBG"	
+			"bgcolor"		"BackgroundStart"	
 		}
 		"bodycontent"	
 		{

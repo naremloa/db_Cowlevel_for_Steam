@@ -221,7 +221,7 @@
 	
 		BigPictureStatusStyleInGame
 		{
-			image="graphics/icon_status_bigpic_ingame"
+			image="graphics/i_clientIcon90"
 			padding-left=2
 		}
 	

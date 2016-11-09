@@ -131,8 +131,8 @@
 			"textcolor"		"ClientTextColor"	
 			"bgcolor"		"none"	
 			"font-family"		"basefont"	
-			"font-size"		"14"	
-			"font-weight"		"400"	
+			"font-size"		"16"	
+			"font-weight"		"600"	
 			"font-style"		"regular"	
 		}
 		"AccountBalanceStyle"	[$OSX]
@@ -147,13 +147,13 @@
 		}
 		"AccountBalanceStyle:Hover"	
 		{
-			"textcolor"		"texthover"	
+			"textcolor"		"white"	
 		}
 		"AccountBalanceSeparatorStyle"	
 		{
 			"textcolor"		"ClientTextColor"	
 			"font-family"		"basefont"	
-			"font-size"		"13"	
+			"font-size"		"16"	
 			"font-weight"		"400"	
 			"font-style"		"regular"	
 			"inset"		"0 0 0 0"	
@@ -519,14 +519,14 @@
 		}
 		"inbox_button"	[!$OSX]
 		{
-			"font-family"		"basefont"	
-			"font-size"		"14"	
+			"font-family"		"Arial"	
+			"font-size"		"16"	
 			"font-weight"		"800"	
 			"font-style"		"none"	
 			"textcolor"		"255 255 255 255"	
 			"padding-left"		"0"	
 			"padding-right"		"0"	
-			"padding-top"		"6"	
+			"padding-top"		"7"	
 			"inset"		"0 -3 8 0"	
 			"render"	
 			{
@@ -552,7 +552,7 @@
 			}
 			"render_bg"	
 			{
-				"13"		"image( x1-22, y0+6, x1 -2, y1, graphics/inbox_notification_inactive )"	
+				"13"		"image( x1-22, y0+6, x1 -2, y1, graphics/cowbell )"	
 			}
 		}
 		"inbox_button:hover"	
@@ -604,7 +604,7 @@
 			"render_bg"	
 			{
 				"0"		"fill(  x0 + 1, y0 + 3, x1+1, y1, InboxButtonActive )"	
-				"1"		"image( x1-22, y0+6, x1 -2, y1, graphics/i_clientIcon12 )"	
+				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button_active:hover"	
@@ -620,7 +620,7 @@
 			"render_bg"	
 			{
 				"0"		"fill(  x0 + 1, y0 + 3, x1+1, y1, InboxButtonActiveHover )"	
-				"1"		"image( x1-22, y0+6, x1 -2, y1, graphics/i_clientIcon12 )"	
+				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 "	
 			}
 		}
 		"inbox_button_active:selected"	
@@ -636,7 +636,7 @@
 			"render_bg"	
 			{
 				"0"		"gradient(  x0 + 1, y0 + 3, x1+1, y1, InboxButtonActiveSelected, InboxButtonActiveSelected )"	
-				"1"		"image( x1-22, y0+6, x1 -2, y1, graphics/i_clientIcon12 )"	
+				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button_active:disabled"	

@@ -233,7 +233,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0, y0+1, x1, y1-1, Focus, Focus )"	
+				"0"		"gradient( x0, y0+1, x1, y1-1, Focus2, Focus2 )"	
 			}
 		}
 		"DetailsInstallButton:Selected"	
@@ -251,7 +251,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0, y0+1, x1, y1-1, Focus, Focus )"	
+				"0"		"gradient( x0, y0+1, x1, y1-1, Focus2, Focus2 )"	
 			}
 		}
 		"DetailsInstallButton:Active"	
@@ -269,7 +269,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0, y0+1, x1, y1-1, Focus, Focus )"	
+				"0"		"gradient( x0, y0+1, x1, y1-1, Focus2, Focus2 )"	
 			}
 		}
 		"DetailsBuyButton"	

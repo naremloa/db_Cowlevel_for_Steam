@@ -24,7 +24,7 @@
 	{
 		screenshotsdetails 
 		{ 
-			bgcolor=ClientInnerItemsBG
+			bgcolor=BackgroundStart
 		}
 	}
 

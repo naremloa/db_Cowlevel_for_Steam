@@ -48,7 +48,7 @@
 			"font-family"		"basefont"	
 			"render_bg"	
 			{
-				"0"		"gradient( x0, y0 - 2, x1 - 1, y1 + 1, DialogBG, DialogBG )"	
+				"0"		"gradient( x0, y0 - 2, x1 - 1, y1 + 1, parental_lock_active2, parental_lock_active2 )"	
 			}
 		}
 		"achievementlabelmore:hover"	

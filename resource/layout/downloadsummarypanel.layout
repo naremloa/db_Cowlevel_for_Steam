@@ -286,7 +286,7 @@
 		"DiscGraphPanel"	
 		{
 			"bgcolor"		"none"	
-			"textcolor"		"green7"	
+			"textcolor"		"ButtonFace2"	
 			"render_bg"	
 			{
 			}
@@ -300,7 +300,7 @@
 		{
 			"render_bg"	
 			{
-				"0"		"fill( x0, y0, x1,y1, green7 )"	
+				"0"		"fill( x0, y0, x1,y1, ButtonFace2 )"	
 			}
 		}
 		"NetLegendPanel"	

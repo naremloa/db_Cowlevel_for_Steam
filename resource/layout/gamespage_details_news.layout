@@ -28,7 +28,7 @@
 	{
 		"newsdetails"	
 		{
-			"bgcolor"		"ClientInnerItemsBG"	
+			"bgcolor"		"BackgroundStart"	
 		}
 	}
 	"layout"	
