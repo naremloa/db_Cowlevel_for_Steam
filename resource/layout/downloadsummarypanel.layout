@@ -213,7 +213,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonface2, propertysheetbg	)"	
+				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonface2, buttonface2	)"	
 			}
 		}
 		"PauseButton:Hover"	
@@ -231,7 +231,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonfaceactive, propertysheetbg	)"	
+				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonfaceactive, buttonfaceactive	)"	
 			}
 		}
 		"ResumeButton"	
@@ -249,7 +249,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonface2, propertysheetbg	)"	
+				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonface2, buttonface2 )"	
 			}
 		}
 		"ResumeButton:Hover"	
@@ -267,7 +267,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonfaceactive, propertysheetbg	)"	
+				"0"		"gradient( x0 + 1, y0	+ 1,	x1 -	1, y1 - 1, buttonfaceactive, buttonfaceactive )"	
 			}
 		}
 		"NetGraphPanel"	
