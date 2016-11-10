@@ -533,7 +533,7 @@
 			}
 			"render_bg"	
 			{
-				"13"		"image( x1-22, y0+6, x1 -2, y1, graphics/i_clientIcon15 )"	
+				"13"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button"	[$OSX]
@@ -552,7 +552,7 @@
 			}
 			"render_bg"	
 			{
-				"13"		"image( x1-22, y0+6, x1 -2, y1, graphics/cowbell )"	
+				"13"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button:hover"	
@@ -562,7 +562,7 @@
 			}
 			"render_bg"	
 			{
-				"1"		"image( x1-22, y0+6, x1 -2, y1, graphics/i_clientIcon15 )"	
+				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button:selected"	
@@ -572,7 +572,7 @@
 			}
 			"render_bg"	
 			{
-				"0"		"gradient(  x0 -3, y0 + 3, x1+1, y1, almostblack, none )"	
+				"0"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button:disabled"	
@@ -588,7 +588,7 @@
 			}
 			"render_bg"	
 			{
-				"1"		"image( x1-22, y0+6, x1 -2, y1, graphics/i_clientIcon16 )"	
+				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button_active"	
@@ -620,7 +620,7 @@
 			"render_bg"	
 			{
 				"0"		"fill(  x0 + 1, y0 + 3, x1+1, y1, InboxButtonActiveHover )"	
-				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 "	
+				"1"		"image( x1-20, y0+7, x1 -2, y1, graphics/i_clientIcon12 )"	
 			}
 		}
 		"inbox_button_active:selected"	

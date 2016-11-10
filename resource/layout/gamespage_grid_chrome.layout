@@ -95,7 +95,7 @@
       font-family=basefont
       font-size=16
       font-weight=400
-      textcolor="white"
+      textcolor="grey"
       font-style=uppercase
       padding-top=1
       bgcolor=none   
@@ -133,7 +133,7 @@
       font-family=basefont
       font-size=16
       font-weight=400
-      textcolor="white"
+      textcolor="grey"
       font-style=uppercase
       bgcolor=none   
       padding-top=1

@@ -123,7 +123,7 @@
 			render_bg
 			{
 				// background fill
-				0="gradient( x0, y0, x1, y1+1, launch1, launch2 )"
+				0="fill( x0, y0, x1, y1+1, focus )"
 				}	
 			}
 			
@@ -137,7 +137,7 @@
 			render_bg
 			{
 			// background fill
-				0="gradient( x0, y0, x1, y1+1, launch0, launch2  )"
+				0="fill( x0, y0, x1, y1+1, focus2 )"
 			}			
 		}
 		
@@ -151,7 +151,7 @@
 			render_bg
 			{
 			// background fill
-				0="gradient( x0, y0, x1, y1+1, focus, launch2 )"
+				0="fill( x0, y0, x1, y1+1, focus2 )"
 			}			
 		}
 }

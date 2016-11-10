@@ -46,7 +46,7 @@
 		"ButtonBorderFocusSubtle"		"122 122 122 255"	
 		"Text"		"177 177 177 255"	
 		"Text2"		"177 177 177 255"	
-		"TextDisabled"		"$ClientTextColorDisabled"	
+		"TextDisabled"		"153 153 153 255"	
 		"TextHover"		"255 255 255 255"	
 		"TextSelected"		"208 208 208 255"	
 		"TextentrySelected"		"208 208 208 255"	
@@ -106,7 +106,7 @@
 		"GameDetailsBlue"		"71 148 179 255"	
 		"GameDetailsGreen"		"71 148 179 255"	
 		"GameDetailsRed"		"71 148 179 255"	
-		"PropertySheetBG"		"58 58 58 255"	
+		"PropertySheetBG"		"44 44 65 255"	
 		"InteriorColor"		"52 52 52 255"	
 		"DialogBorder"		"117 117 117 255"	
 		"FillBG1"		"62 62 62 255"	
@@ -134,8 +134,8 @@
 		"green7"		"62 90 22 255"	
 		"green8"		"38 48 2 255"	
 		"launch0"		"119 215 250 255"	
-		"launch1"		"83 172 204 255"	
-		"launch2"		"54 125 153 255"	
+		"launch1"		"255 66 95 255"	
+		"launch2"		"255 66 95 255"	
 		"parental_lock_inactive1"		"154 49 48 255"	
 		"parental_lock_inactive2"		"189 79 79 255"	
 		"parental_lock_inactive3"		"215 90 90 255"	
@@ -1756,8 +1756,8 @@
 		}
 		"ProgressBar"	
 		{
-			"textcolor"		"highlight5a"	
-			"bgcolor"		"none"	
+			"textcolor"		"focus2"	
+			"bgcolor"		"39 40 56 255"	
 			"render"	
 			{
 				"1"		"fill( x0 + 1, y0 + 1, x1 - 1, y0 + 2, ButtonBorder )"	
@@ -1768,7 +1768,7 @@
 		}
 		"Page ProgressBar"	
 		{
-			"textcolor"		"highlight5a"	
+			"textcolor"		"focus2"	
 			"bgcolor"		"none"	
 			"render"	
 			{
@@ -3305,7 +3305,7 @@
 		"GameDetailsBlue"		"71 148 179 255"	
 		"GameDetailsGreen"		"71 148 179 255"	
 		"GameDetailsRed"		"71 148 179 255"	
-		"PropertySheetBG"		"58 58 58 255"	
+		"PropertySheetBG"		"44 44 65 255"	
 		"InteriorColor"		"52 52 52 255"	
 		"DialogBorder"		"117 117 117 255"	
 		"FillBG1"		"62 62 62 255"	
@@ -4955,7 +4955,7 @@
 		}
 		"ProgressBar"	
 		{
-			"textcolor"		"highlight5a"	
+			"textcolor"		"focus2"	
 			"bgcolor"		"none"	
 			"render"	
 			{

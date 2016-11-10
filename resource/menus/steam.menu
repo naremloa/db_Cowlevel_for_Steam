@@ -1,4 +1,4 @@
-"menubar"	
+﻿"menubar"	
 {
 	"Steam"	
 	{
@@ -363,19 +363,19 @@
 			"command"		"About"	
 		}
 	}
-	"›"	
+	"奶牛关"	
 	{
-		"Customize Skin"	
+		"动态"	
 		{
-			"shellcmd"		"steam://openurl/http://steamcustomizer.com/"	
+			"shellcmd"		"steam://openurl/https://cowlevel.net/feed"	
 		}
-		"Browse Skins"	
+		"发现"	
 		{
-			"shellcmd"		"steam://openurl/http://steamcustomizer.com/?Browse"	
+			"shellcmd"		"steam://openurl/https://cowlevel.net/discover"	
 		}
-		"Community Group"	
+		"撰写文章"	
 		{
-			"shellcmd"		"steam://openurl/http://steamcommunity.com/groups/steamcustomizer"	
+			"shellcmd"		"steam://openurl/https://cowlevel.net/article/new"	
 		}
 	}
 }

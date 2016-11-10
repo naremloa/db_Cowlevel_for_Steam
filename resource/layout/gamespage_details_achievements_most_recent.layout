@@ -95,7 +95,7 @@
 		}
 		"progressbarimage"	
 		{
-			"bgcolor"		"focus"	
+			"bgcolor"		"focus2"	
 			"render_bg"	
 			{
 			}

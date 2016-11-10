@@ -10,9 +10,9 @@
 		CrawlingText { controlname="RichText" style="CrawlingText" }
 		
 		// Background image, plus overlays 
-		BackgroundImageA { controlname="ImagePanel" style="HeaderImage" zpos="-4" visible=1 scaling="none" horizontal-align=left vertical-align=top }
-		BackgroundImageB { controlname="ImagePanel" style="HeaderImage" zpos="-4" visible=1 scaling="none" horizontal-align=left vertical-align=top }
-		BackgroundImageMask { controlname="ImagePanel" style="HeaderImage" zpos="-3" visible=1 scaling="none" horizontal-align=left vertical-align=top }
+		BackgroundImageA { controlname="ImagePanel" style="HeaderImage" zpos="-4" visible=0 scaling="none" horizontal-align=left vertical-align=top }
+		BackgroundImageB { controlname="ImagePanel" style="HeaderImage" zpos="-4" visible=0 scaling="none" horizontal-align=left vertical-align=top }
+		BackgroundImageMask { controlname="ImagePanel" style="HeaderImage" zpos="-3" visible=0 scaling="none" horizontal-align=left vertical-align=top }
 
 	}
 
@@ -55,7 +55,7 @@
 			}
 			render_bg
 			{
-				 0="gradient( x0+2, y0+2, x1-1, y1 - 1, dialogbg, almostblack )"
+				 0="gradient_horizontal( x0+2, y0+2, x1-1, y1 - 1, none, BackgroundStart )"
 			}
 		}
 		
@@ -63,7 +63,7 @@
 		// Some overrides for our listpanel
 		"MusicPage_Details_Content ListPanel"
 		{
-			bgcolor="None"
+			bgcolor="none"
 			font-size=15
 			render_bg {}
 			render {}
@@ -74,7 +74,7 @@
 		
 		"MusicPage_Details_Content ListPanelInterior"
 		{
-			bgcolor="none"
+			bgcolor="BackgroundStart"
 			textcolor="text2"
 			inset="1 1 0 0"
 			render {}
@@ -84,7 +84,7 @@
 		"MusicPage_Details_Content ListPanelInterior:scrollbar"
 			{     
 			inset="1 1 -2 0"
-			bgcolor=none
+			bgcolor="BackgroundStart"
 			
 			render_bg {}
 			}
@@ -111,7 +111,7 @@
 		
 		"MusicPage_Details_Content ListPanelColumnHeader" [$OSX]
 		{
-			bgcolor="none"
+			bgcolor="BackgroundStart"
 			font-size=13
 			inset="2 2 0 0"
 			render {}
@@ -124,21 +124,21 @@
           		5="image( x0 + 3, y0 + 3, x1, y1, graphics/icon_collapse )"
         		}   
         		render_bg {
-        			1="fill( x0 + 1, y0, x1 - 1, y1, none )"
+        			1="gadient_horizontal( x0 + 1, y0, x1 - 1, y1, black£¬BackgroundStart )"
         		}
 		}
 		
 		DetailsBorderPanel
 		{
 			
-			bgcolor = "0 0 0 255"
+			bgcolor = "none"
 			render 
 			{
 
 			}
 		}	
 
-		BackgroundImage { bgcolor="0 0 0 0" }
+		BackgroundImage { bgcolor="MenuBG" }
 	}
 
 	layout

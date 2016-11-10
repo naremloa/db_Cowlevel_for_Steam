@@ -682,12 +682,12 @@
 		}
 		"WebPanelStyle"	
 		{
-			"bgcolor"		"44 44 65 255"	
+			"bgcolor"		"DialogBG"	
 			"textcolor"		"label"	
 			"inset"		"1 1 1 1"	
 			"render_bg"	
 			{
-				"0"		"fill( x0, y0, x1, y1, 44 44 65 255 )"	
+				"0"		"fill( x0, y0, x1, y1, DialogBG )"	
 			}
 		}
 		"BroadcastPanelMinimized"	

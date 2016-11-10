@@ -190,7 +190,7 @@
 			"font-family"		"basefont"	
 			"font-size"		"15"	
 			"font-weight"		"400"	
-			"textcolor"		"textdisabled"	
+			"textcolor"		"grey"	
 			"bgcolor"		"none"	
 			"inset"		"0 9 0 0"	
 		}
